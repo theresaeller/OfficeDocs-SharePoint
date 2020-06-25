@@ -1,5 +1,5 @@
 ---
-title: "Migration performance guide for SharePoint & OneDrive"
+title: Migration performance guide for SharePoint & OneDrive
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,16 +15,17 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-mar2020
+- seo-marvel-jun2020
 search.appverid: MET150
-description: "This article explains the factors that influence migration speed at each phase while using the SharePoint Migration API."
+description: Learn about the factors that influence online migration speed and find information about throttling rules and why the migration tool might be slow.
 ---
 
-# General migration performance guidance
+# Guidance for SharePoint Online and OneDrive migration tool speed
 
 >[!Important]
->Many Microsoft SharePoint and Microsoft OneDrive customers run business-critical applications against the service that run in the background.  These include content migration, Data Loss Prevention (DLP), and backup solutions.  During these unprecedented times, we are taking steps to ensure that SharePoint and OneDrive services remain highly available and reliable for your users who depend on the service more than ever in remote work scenarios.
+>Many Microsoft SharePoint and Microsoft OneDrive customers run business-critical applications against the service that run in the background. These include content migration, Data Loss Prevention (DLP), and backup solutions. During these unprecedented times, we are taking steps to ensure that SharePoint and OneDrive services remain highly available and reliable for your users who depend on the service more than ever in remote work scenarios.
 >
->In support of this objective, we have implemented tighter throttling limits on background apps (migration, DLP and backup solutions) during weekday daytime hours.  You should expect that these apps will achieve very limited throughput during these times.  However, **during evening and weekend hours** for the region, the service will be ready to process a significantly higher volume of requests from background apps.
+>In support of this objective, we have implemented tighter throttling limits on background apps (migration, DLP and backup solutions) during weekday daytime hours.  You should expect that these apps will achieve very limited throughput during these times. However, **during evening and weekend hours** for the region, the service will be ready to process a significantly higher volume of requests from background apps.
 
 >[!Important]
 >**Can Microsoft turn off the throttle to help me with migration?**  **No.** Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended. Opening a support ticket will not lift throttle. See the [FAQ and Troubleshooting](#faq-and-troubleshooting) section below for additional information.
