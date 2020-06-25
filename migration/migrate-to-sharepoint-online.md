@@ -1,5 +1,5 @@
 ---
-title: "Migrate to SharePoint"
+title: Select the right tool for your SharePoint migration
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,12 +16,13 @@ msCollection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
-description: "This article helps you understand, which tool to use when migrating content to SharePoint and OneDrive in Microsoft 365."
+- seo-marvel-jun2020
+description: Is the SharePoint Migration Tool (SPMT) the best tool for migrating content online? See other options based on your organization's content size and location.
 ---
 
 # Migrating your content to SharePoint and OneDrive
 
-Moving to SharePoint or OneDrive in Microsoft 365? There are several tools and methods you can use; what is best for you and your organization depends on a number of factors. What is the size and amount of content you need to move? Where does it currently reside? Taking the time to plan your migration, including taking an inventory and assessment of your data, is key to a successful migration.
+Moving to SharePoint or OneDrive in Microsoft 365? There are several migration tools and methods you can use; what is best for you and your organization depends on a number of factors. What is the size and amount of content you need to move? Where does it currently reside? Taking the time to plan your online migration, including taking an inventory and assessment of your data, is key to a successful migration.
 
 To learn more about the which tool to use, see the table below.
 
@@ -37,7 +38,7 @@ To learn more about the which tool to use, see the table below.
 
 |**Tool/method**|**Description**|**Best for**|
 |:-----|:-----|:-----|
-|Migration Manager|Available in the SharePoint Admin center, Migration Manager provides a centralized way of connecting servers, creating tasks, and automatically distributing your migration tasks.</br> To learn more, see: [Get started with Migration Manager](mm-get-started.md)|Ideal for customers migrating file shares.|
+|Migration Manager|Available in the SharePoint Admin center, Migration Manager provides a centralized way of connecting servers, creating tasks, and automatically distributing your online migration tasks.</br> To learn more, see: [Get started with Migration Manager](mm-get-started.md)|Ideal for customers migrating file shares.|
 |SharePoint Migration Tool|The SharePoint Migration Tool (SPMT) can migrate your files from SharePoint on-premises document libraries, lists or regular files shares.</br></br>Download either the current release or the latest public preview: </br></br>[SharePoint Migration Tool (current release)](https://spmtreleasescus.blob.core.windows.net/install/default.htm) or </br>[SharePoint Migration Tool Public Preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)|Ideal for migrating SharePoint Server 2010 & 2013 environments.|
 |Mover|Service for cloud to cloud migration. To learn more, see: [Mover](https://mover.io/)|Ideal for migrating data from other cloud service providers into OneDrive or SharePoint.|
 |PowerShell|Using the PowerShell version of the SPMT. See [Migrate to SharePoint using PowerShell](https://docs.microsoft.com/sharepointmigration/overview-spmt-ps-cmdlets).|SPMT is ideal for migrating SharePoint Server 2010 & 2013 environments via PowerShell. |
