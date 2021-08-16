@@ -66,9 +66,9 @@ Data shared to an Office 365 Group does not appear in the **Shared with me** sec
 After the user has logged in:
 
 1. Navigate to the left hand menu.
-2. Scroll down the folder listings to **Groups**.
+2. Scroll down the folder listings to **Groups**<br>
   a. If the available groups are not visible, to open the group directory, select the small arrow beside the **Groups** listing.
-3. Select the desired group.
+4. Select the desired group.
 From here, the left-hand menu should change, enabling you to open and edit **Files/Notes** within the selected Office 365 Group.
 
 ### What SharePoint site formats are supported?
